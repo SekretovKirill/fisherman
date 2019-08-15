@@ -1,0 +1,12 @@
+body {
+  background: url("http://weni.ru/wallpapers/954507a7126a33db92efb3af8000a1e1/2162_4.jpg") no-repeat 100%;
+  background-size: 1700px auto;
+  color: white;
+    text-shadow: red 1px 1px 0, red -1px -1px 0,
+                 red -1px 1px 0, red 1px -1px 0;
+  }
+h1 {
+  margin-left: auto;
+    margin-right: auto;
+    width: 17em
+    }
